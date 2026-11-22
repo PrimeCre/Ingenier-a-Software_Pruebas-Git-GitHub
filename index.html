@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de Git y GitHub</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: #e2e8f0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 48px 20px;
+        }
+
+        header {
+            max-width: 700px;
+            margin-bottom: 40px;
+        }
+
+        .etiqueta {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.15);
+            color: #38bdf8;
+            padding: 6px 16px;
+            border-radius: 999px;
+            font-size: 14px;
+            margin-bottom: 18px;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            color: #94a3b8;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        section {
+            width: 100%;
+            max-width: 900px;
+            margin-bottom: 44px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #38bdf8;
+            margin-bottom: 22px;
+        }
+
+        .tarjetas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .tarjeta {
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            padding: 28px 24px;
+            width: 240px;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+            .tarjeta:hover {
+                transform: translateY(-6px);
+                background: rgba(255, 255, 255, 0.12);
+            }
+
+        .avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #38bdf8, #6366f1);
+            color: #fff;
+            font-size: 1.6rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 14px;
+        }
+
+        .tarjeta h3 {
+            color: #fff;
+            font-size: 1.15rem;
+            margin-bottom: 4px;
+        }
+
+        .tarjeta span {
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+
+        .comandos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 16px;
+        }
+
+        .comando {
+            background: rgba(0, 0, 0, 0.35);
+            border-radius: 12px;
+            padding: 18px;
+        }
+
+            .comando code {
+                display: block;
+                color: #4ade80;
+                font-family: Consolas, monospace;
+                font-size: 1.05rem;
+                margin-bottom: 8px;
+            }
+
+            .comando p {
+                color: #cbd5e1;
+                font-size: 0.92rem;
+            }
+
+        footer {
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-top: auto;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="etiqueta">Examen práctico 2</div>
+        <h1>Práctica de Git y GitHub</h1>
+        <p>
+            Introducción a la Ingeniería de Software<br>
+            Control de versiones aplicado al trabajo en equipo
+        </p>
+    </header>
+
+    <section>
+        <h2>Integrantes del equipo</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <div class="avatar">J</div>
+                <h3>Jeremy Jara</h3>
+                <span>Creación del repositorio</span>
+            </div>
+            <div class="tarjeta">
+                <div class="avatar">P</div>
+                <h3>Pablo Farias</h3>
+                <span>Colaborador</span>
+            </div>
+            <div class="tarjeta">
+                <div class="avatar">H</div>
+                <h3>Harold Perez</h3>
+                <span>Colaborador</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Comandos utilizados</h2>
+        <div class="comandos">
+            <div class="comando"><code>git clone</code><p>Descarga una copia del repositorio.</p></div>
+            <div class="comando"><code>git add</code><p>Prepara los cambios para guardarlos.</p></div>
+            <div class="comando"><code>git commit</code><p>Guarda los cambios con un mensaje.</p></div>
+            <div class="comando"><code>git log</code><p>Muestra el historial de commits.</p></div>
+            <div class="comando"><code>git push</code><p>Sube los cambios a GitHub.</p></div>
+            <div class="comando"><code>git pull</code><p>Trae los cambios de otros integrantes.</p></div>
+        </div>
+    </section>
+
+    <footer>Proyecto realizado con Git y GitHub · UNEMI · 2026</footer>
+
+</body>
+</html>
