@@ -2,4 +2,4 @@ Integrantes: Jeremy Jara, Pablo Farias, Harold Perez
 Materia: Introduccion a la Ingenieria de Software
 Objetivo: practicar control de versiones con Git y GitHub
 Harold Pérez: hice mi participación en la práctica de Github muchacho
-Pablo Farias: Participe en la práctica de Git y Github  
+Pablo Farias: Participé en la práctica de Git y Github  
